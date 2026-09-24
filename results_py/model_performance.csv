@@ -1,0 +1,11 @@
+drug,split,model,sensitivity,specificity,auroc
+methicillin,mlst-aware,LogReg,1.0,0.0,0.5
+methicillin,mlst-aware,RandomForest,1.0,0.0,0.5
+methicillin,random,LogReg,1.0,0.0,0.5869565217391304
+methicillin,random,RandomForest,0.17391304347826086,1.0,0.5869565217391304
+erythromycin,mlst-aware,LogReg,0.0,0.9852941176470589,0.4722689075630252
+erythromycin,mlst-aware,RandomForest,0.0,0.9705882352941176,0.48571428571428577
+erythromycin,random,LogReg,0.0,0.9622641509433962,0.444743935309973
+erythromycin,random,RandomForest,0.0,0.9622641509433962,0.444743935309973
+methicillin,n/a (BV-BRC baseline),BV-BRC AdaBoost,0.9090909090909091,,
+erythromycin,n/a (BV-BRC baseline),BV-BRC AdaBoost,0.8,0.9411764705882353,
